@@ -1,6 +1,12 @@
 # Instagram-System-Design
 Deliver the right content to the right user as quickly and reliably as possible, even when the system handles a huge amount of traffic.
 
+## System Architecture Diagram
+
+The diagram covers the client apps, load balancer, application servers, cache, sharded databases, S3 object storage, CDN, and the four caching levels.
+
+<img width="1536" height="1024" alt="Instagram System Design Architecture Infographic" src="https://github.com/user-attachments/assets/6a478e09-6531-4b81-86e6-b9f532236f48" />
+
 ## 1. Introduction
 
 Instagram is a social media application where users can create profiles, upload photos and videos, follow other users, view feeds, like posts, comment, and share content.
