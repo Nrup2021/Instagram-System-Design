@@ -739,3 +739,6 @@ The result is a feed that can load quickly without downloading every historical 
 I would optimize the feed at multiple levels. First, I would index the database queries and cache frequently accessed post metadata. I would use pagination or cursor-based retrieval to avoid fetching too many posts at once, and delta fetch to retrieve only relevant updates. Images and videos would be stored separately from post metadata and delivered through a CDN. On mobile, I would use local caching, lazy loading, placeholders, and suitable media resolutions. Finally, I would monitor latency, cache hit rates, and database performance to identify bottlenecks.
 
 **Core idea:** Fetch only the data you need, keep frequently accessed information close to where it is used, and avoid repeatedly transferring large files.
+
+
+Disclaimer: This document presents a simplified, educational system design for an Instagram-like social media platform. The architecture, database schemas, caching strategies, and technology choices are illustrative examples intended for learning and system design interview preparation. They do not represent Instagram's exact production architecture.
