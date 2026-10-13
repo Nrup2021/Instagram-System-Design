@@ -14,8 +14,6 @@ Designing a system like Instagram requires handling:
 - Database scaling and caching.
 - Mobile data usage and network latency.
 
-**Main goal:** Deliver the right content to the right user as quickly and reliably as possible, even when the system handles a huge amount of traffic.
-
 ## 2. MVP — Minimum Viable Product
 
 An MVP is the simplest version of a product that provides its core functionality to users.
